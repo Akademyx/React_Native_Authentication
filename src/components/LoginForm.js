@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Card, CardSection, Input } from './common';
-import firebase from '@firebase/app';
+// import firebase from '@firebase/app';
 import { Text } from 'react-native'
 
 class LoginForm extends Component {
@@ -27,6 +27,7 @@ class LoginForm extends Component {
                     this.setState({ error: 'Authentication Failed.' })
                 });
         });
+        console.log("working?")
         //singin is a promise
     }
 
@@ -60,7 +61,6 @@ class LoginForm extends Component {
                 </Text> 
 
                 <CardSection>
-                    {/* <Button > */}
                     <Button onPress={this.onButtonPress.bind(this)} >
                         Log In!
                     </Button>

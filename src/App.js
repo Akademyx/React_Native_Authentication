@@ -18,6 +18,12 @@ class App extends Component {
             projectId: 'authentication-2ce32',
             storageBucket: 'authentication-2ce32.appspot.com',
             messagingSenderId: '1032644992444'
+            // apiKey: "AIzaSyD6WKr4nBqVaGpVhjBEQ2v1FEDqWuLheko",
+            // authDomain: "letscodescv-5dbc0.firebaseapp.com",
+            // databaseURL: "https://letscodescv-5dbc0.firebaseio.com",
+            // projectId: "letscodescv-5dbc0",
+            // storageBucket: "letscodescv-5dbc0.appspot.com",
+            // messagingSenderId: "313319506594"
             });
     }
     render() {
@@ -28,6 +34,7 @@ class App extends Component {
             </View>
         )
     }
-}
+};
+
 console.log("hello")
 export default App;
