@@ -29,5 +29,5 @@ class App extends Component {
         )
     }
 }
-
+console.log("hello")
 export default App;
